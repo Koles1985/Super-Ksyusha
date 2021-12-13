@@ -23,6 +23,7 @@ public class KolesFileIO implements FileIO{
                     + File.separator;
             System.out.println("External path = " + externalStoragePath);
         }else{
+            this.externalStoragePath = null;
             System.out.println("External state = " + externalState);
             System.out.println("External path = " + externalStoragePath);
         }
