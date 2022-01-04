@@ -12,6 +12,10 @@ public class KolesPixmap implements Pixmap{
         this.format = format;
     }
 
+    public Bitmap getBitmap() {
+        return bitmap;
+    }
+
     @Override
     public int getWidth() {
         return bitmap.getWidth();

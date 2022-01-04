@@ -55,7 +55,7 @@ public class KolesMusic implements Music, OnCompletionListener {
 
     @Override
     public void pause() {
-
+        mediaPlayer.pause();
     }
 
     @Override
